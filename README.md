@@ -1,1 +1,13 @@
-# CS230_Portfolio
+Project Reflection
+
+The Gaming Room was a client looking to expand their existing game, Draw It or Lose It, beyond Android devices. The game allows teams of players to compete by guessing images as they are gradually displayed. The client wanted a web-based application that could run across multiple operating systems and devices. The application also needed to support multiple teams and players, unique identifiers, and consistent management of game information.
+
+I think I did particularly well at organizing the software requirements and comparing the different operating platforms. I was able to identify the advantages and disadvantages of Linux, Windows, Mac, and mobile platforms while considering the needs of the application. I also explained how the different design patterns could help organize the application and prevent unnecessary duplication.
+
+Working through the design document helped me better understand the structure of the application before developing the code. Identifying the relationships between the Entity, Game, Team, and Player classes made it easier to understand how inheritance could be used. The document also helped me understand why the singleton and iterator patterns were useful for managing game information and checking for duplicate names.
+
+If I could revise one part of the design document, I would expand the section about memory and storage management. While I explained the general approaches, I could improve it by providing more specific examples of how the application would handle image files and manage resources as the number of players increases. This would help make the recommendations more useful for future development.
+
+I interpreted the client's needs by identifying the main requirements and determining how the application should be structured to meet them. For example, the client required unique game and team names, so the application uses the iterator pattern to search existing objects before creating new ones. The singleton pattern was also used to prevent multiple instances of GameService. Considering the user's needs is important because the software must solve the problems the client actually has rather than simply provide functionality that developers think would be useful.
+
+I approached the design process by reviewing the requirements, identifying the necessary classes and relationships, and considering how the application would operate across different platforms. I used object-oriented programming principles and design patterns to create a structure that could be maintained and expanded. In future projects, I would continue breaking down requirements into smaller components, using class diagrams to plan relationships, and comparing possible solutions before choosing an approach. I would also consider performance, security, and scalability earlier in the design process.
